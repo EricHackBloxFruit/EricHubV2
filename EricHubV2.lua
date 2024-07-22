@@ -791,7 +791,7 @@ local NotiFrame = Instance.new("Frame")
  local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
  
  local ZENHUB = Instance.new("ScreenGui")
- ZENHUB.Name = "ZENHUB"
+ ERICHUB.Name = "ERICHUB"
  ZENHUB.Parent = game.CoreGui
  ZENHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
  
@@ -846,14 +846,14 @@ local NotiFrame = Instance.new("Frame")
  Name.TextSize = 16.000
  
  local Hub = Instance.new("TextLabel")
- Hub.Name = "Hub"
+ Hub.Name = "Eric Hub"
  Hub.Parent = Top
  Hub.BackgroundColor3 = Color3.fromRGB(224,224,224)
  Hub.BackgroundTransparency = 1.000
  Hub.Position = UDim2.new(0, 78, 0, 0)
  Hub.Size = UDim2.new(0, 81, 0, 27)
  Hub.Font = Enum.Font.Code
- Hub.Text = "Hub"
+ Hub.Text = "Eric Hub"
  Hub.TextColor3 = Color3.fromRGB(255, 47, 172)
  Hub.TextSize = 16.000
 
@@ -4806,10 +4806,10 @@ Setting:Label("Hãy Cày Thuê")
 
 Setting:Line()
 
-Setting:Button("Sao Chép Link Facebook",function()
+Setting:Button("Sao Chép Link Discord",function()
  
- setclipboard("https://www.facebook.com/asukanaken")
-  DiscordLib:Notification("Thông Báo" , "Đã Sao Chép Link Facebook" , 10 ,11816162894 )
+ setclipboard("https://discord.gg/x48hGC2A")
+  DiscordLib:Notification("Thông Báo" , "Đã Sao Chép Link Discord" , 10 ,11816162894 )
  end)
 
 Setting:Seperator(" Setting ")
