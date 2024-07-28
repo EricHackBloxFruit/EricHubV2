@@ -155,7 +155,7 @@ _G.Settings = {
 --[Auto Redeem Code]
 
     ["Enabled Auto Redeem Code"] = false,
-    ["Select Level Redeem Code"] = 1, --{Max : 2400}
+    ["Select Level Redeem Code"] = 1, --{Max : 2550}
   },
 
   Misc = {
